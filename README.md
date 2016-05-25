@@ -1,4 +1,4 @@
-# angular-base-project
+# angular-validation-project
 
 This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
 You can use it to quickly bootstrap your angular webapp projects and dev environment for these
@@ -7,7 +7,9 @@ projects.
 The seed contains a sample AngularJS application and is preconfigured to install the Angular
 framework and a bunch of development and testing tools for instant web development gratification.
 
-The seed app doesn't do much, just shows how to wire two controllers and views together.
+This app doesn't do much. It just shows a sample login form with validation. It is just an example of validation configuration.
+
+It uses ngMessages, ngAnimate and angular-seed.
 
 The angular version included is 1.5.5.
 
