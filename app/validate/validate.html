@@ -6,6 +6,7 @@
         <label>Name</label>
         <input type="text" name="name" class="form-control"
                ng-model="main.name"
+               ng-model-options="{ updateOn: 'blur' }"
                ng-minlength="5"
                ng-maxlength="10"
                required>
@@ -20,6 +21,7 @@
         <label>Email</label>
         <input type="email" name="email" class="form-control"
                ng-model="main.email"
+               ng-model-options="{ updateOn: 'blur' }"
                ng-minlength="5"
                ng-maxlength="20"
                required>

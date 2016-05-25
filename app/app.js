@@ -8,7 +8,9 @@
         'myApp.validate',
         'myApp.view2',
         'myApp.version',
-        'ngMessages'
+        'ngMessages',
+        'ngAnimate'
+        
     ]).config(['$routeProvider', function ($routeProvider) {
         $routeProvider.otherwise({redirectTo: '/validate'});
     }]);
