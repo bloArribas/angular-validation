@@ -28,3 +28,13 @@
   content: "";
   padding: 0;
 }
+
+#loginForm{
+  margin: auto;
+  display: block;
+  width: 20em;
+}
+
+#contentView{
+  text-align: center;
+}
